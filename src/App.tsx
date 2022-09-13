@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Counter from "./components/Counter";
+import Draggable from "./Pages/Draggable";
+import Candycrush from "./Pages/candycrush/Candycrush";
+import UseLayout from "./Pages/useLayout/useLayout";
+import UseEffect from "./Pages/useLayout/useEffect";
+import Tiktactoe from "./TikTacToe/Tiktactoe";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter /> */}
+      {/* <Draggable /> */}
+      {/* <Candycrush /> */}
+      {/* <UseLayout /> */}
+      {/* <UseEffect /> */}
+      <Tiktactoe />
     </div>
   );
 }

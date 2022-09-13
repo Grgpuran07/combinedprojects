@@ -1,0 +1,31 @@
+.main-div{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-div{
+    width: 500px;
+    /* border: 1px solid black; */
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    box-shadow: 0px 2px 12px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 12px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 12px -3px rgba(0,0,0,0.75);
+    border-radius: 15px;
+}
+
+.single-div{
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: all 0.2s;
+    box-shadow: 0px 2px 12px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 12px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 12px -3px rgba(0,0,0,0.75);
+}
+
+.single-div:hover{
+    transform: scale(1.1);
+}

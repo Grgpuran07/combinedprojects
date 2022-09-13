@@ -1,0 +1,9 @@
+.itemclass{
+    background-color: green;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 10px auto;
+}
